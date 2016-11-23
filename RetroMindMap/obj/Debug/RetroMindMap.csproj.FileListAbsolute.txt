@@ -1,0 +1,9 @@
+D:\Kuliah\Semester 9\KPL\RetroMindMap\RetroMindMap\bin\Debug\RetroMindMap.exe.config
+D:\Kuliah\Semester 9\KPL\RetroMindMap\RetroMindMap\bin\Debug\RetroMindMap.exe
+D:\Kuliah\Semester 9\KPL\RetroMindMap\RetroMindMap\bin\Debug\RetroMindMap.pdb
+D:\Kuliah\Semester 9\KPL\RetroMindMap\RetroMindMap\obj\Debug\RetroMindMap.csprojResolveAssemblyReference.cache
+D:\Kuliah\Semester 9\KPL\RetroMindMap\RetroMindMap\obj\Debug\RetroMindMap.Main.resources
+D:\Kuliah\Semester 9\KPL\RetroMindMap\RetroMindMap\obj\Debug\RetroMindMap.Properties.Resources.resources
+D:\Kuliah\Semester 9\KPL\RetroMindMap\RetroMindMap\obj\Debug\RetroMindMap.csproj.GenerateResource.Cache
+D:\Kuliah\Semester 9\KPL\RetroMindMap\RetroMindMap\obj\Debug\RetroMindMap.exe
+D:\Kuliah\Semester 9\KPL\RetroMindMap\RetroMindMap\obj\Debug\RetroMindMap.pdb
