@@ -6,7 +6,7 @@ using System.Drawing.Drawing2D;
 
 namespace RetroMindMap.Shapes
 {
-    public class LineSegment : DrawingObject
+    public class LineSegment : Edge
     {
         private const double EPSILON = 3.0;
 
@@ -14,7 +14,8 @@ namespace RetroMindMap.Shapes
         public Point Endpoint { get; set; }
 
         private Pen pen;
-
+        private Vertex vertex1;
+        private Vertex vertex2;
         public LineSegment()
         {
             this.pen = new Pen(Color.Black);
@@ -108,6 +109,32 @@ namespace RetroMindMap.Shapes
         public override bool Remove(DrawingObject obj)
         {
             return false;
+        }
+        public void AddVertex(Vertex vertex)
+        {
+            if (vertex1 == null)
+            {
+                vertex1 = vertex;
+            }
+            else
+            {
+                vertex2 = vertex;
+            }
+        }
+        public override void Update(IObservable vertex, int deltaX, int deltaY)
+        {
+        if (vertex == vertex1)
+        {
+        Startpoint = new Point(this.Startpoint.X + deltaX, this.Startpoint.Y + deltaY);
+        }
+        else
+        {
+        Endpoint = new Point(this.Endpoint.X + deltaX, this.Endpoint.Y + deltaY);
+        }
+        }
+        public override Point GetIntersectionPoint(Point p1, Point p2)
+        {
+            throw new NotImplementedException();
         }
     }
 }

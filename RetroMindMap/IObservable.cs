@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace RetroMindMap
 {
-    public interface IObserver
+    public interface IObservable
     {
-        void Update(IObservable vertex, int deltaX, int deltaY);
+        void Subscribe(IObserver O);
+        void Unsubscribe(IObserver O);
     }
 }

@@ -68,5 +68,9 @@ namespace RetroMindMap.Shapes
             X += xAmount;
             Y += yAmount;
         }
+        public override Point GetIntersectionPoint(Point p1, Point p2)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

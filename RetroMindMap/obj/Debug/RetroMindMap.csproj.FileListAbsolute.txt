@@ -27,3 +27,13 @@ C:\Users\Arfian\Desktop\Kuliah\RetroMindMap-master\RetroMindMap-master\RetroMind
 C:\Users\Arfian\Desktop\Kuliah\RetroMindMap-master\RetroMindMap-master\RetroMindMap\obj\Debug\RetroMindMap.MainWindow.resources
 C:\Users\Arfian\Desktop\Kuliah\RetroMindMap-master\RetroMindMap-master\RetroMindMap\obj\Debug\RetroMindMap.Properties.Resources.resources
 C:\Users\Arfian\Desktop\Kuliah\RetroMindMap-master\RetroMindMap-master\RetroMindMap\obj\Debug\RetroMindMap.csproj.GenerateResource.Cache
+C:\virtual\RetroMindMap\RetroMindMap\bin\Debug\RetroMindMap.exe.config
+C:\virtual\RetroMindMap\RetroMindMap\bin\Debug\RetroMindMap.exe
+C:\virtual\RetroMindMap\RetroMindMap\bin\Debug\RetroMindMap.pdb
+C:\virtual\RetroMindMap\RetroMindMap\obj\Debug\RetroMindMap.csprojResolveAssemblyReference.cache
+C:\virtual\RetroMindMap\RetroMindMap\obj\Debug\RetroMindMap.IconSet.resources
+C:\virtual\RetroMindMap\RetroMindMap\obj\Debug\RetroMindMap.MainWindow.resources
+C:\virtual\RetroMindMap\RetroMindMap\obj\Debug\RetroMindMap.Properties.Resources.resources
+C:\virtual\RetroMindMap\RetroMindMap\obj\Debug\RetroMindMap.csproj.GenerateResource.Cache
+C:\virtual\RetroMindMap\RetroMindMap\obj\Debug\RetroMindMap.exe
+C:\virtual\RetroMindMap\RetroMindMap\obj\Debug\RetroMindMap.pdb
