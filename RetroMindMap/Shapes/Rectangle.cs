@@ -109,5 +109,87 @@ namespace RetroMindMap.Shapes
 
             return true;
         }
+        public override Point GetIntersectionPoint(Point p1, Point p2)
+        {
+              Point P = new Point();
+              //kiri atas sampe kanan atas
+              int A1 = p2.Y - p1.Y;
+              int B1 = p1.X - p2.X;
+              int A2 = 0;
+              int B2 = -this.Width;
+              int C1 = A1 * p1.X + B1 * p1.Y;
+              int C2 = A2 * this.X + B2 * this.Y;
+              double det = A1 * B2 - A2 * B1;
+              if (det != 0)
+              {
+                  double x = (B2 * C1 - B1 * C2) / det;
+                  double y = (A1 * C2 - A2 * C1) / det;
+                  if (Math.Min(p1.X, p2.X) <= x && x <= Math.Max(p1.X, p2.X))
+                  {
+                      P.X = (int)x;
+                      P.Y = (int)y;
+                      return P;
+                  }
+
+              }
+              //kanan atas sampe kanan bawah
+              A2 = -this.Height;
+              B2 = 0;
+              C1 = A1 * p1.X + B1 * p1.Y;
+              C2 = A2 * (this.X + this.Width) + B2 * this.Y;
+              det = A1 * B2 - A2 * B1;
+              if (det != 0)
+              {
+                  double x = (B2 * C1 - B1 * C2) / det;
+                  double y = (A1 * C2 - A2 * C1) / det;
+                  if (Math.Min(p1.X, p2.X) <= x && x <= Math.Max(p1.X, p2.X))
+                  {
+                      P.X = (int)x;
+                      P.Y = (int)y;
+                      return P;
+                  }
+
+              }
+
+              //kanan bawah sampe kiri bawah
+              A2 = 0;
+              B2 = this.Width;
+              C1 = A1 * p1.X + B1 * p1.Y;
+              C2 = A2 * (this.X + this.Width) + B2 * (this.Y + this.Height);
+              det = A1 * B2 - A2 * B1;
+              if (det != 0)
+              {
+                  double x = (B2 * C1 - B1 * C2) / det;
+                  double y = (A1 * C2 - A2 * C1) / det;
+                  if (Math.Min(p1.X, p2.X) <= x && x <= Math.Max(p1.X, p2.X))
+                  {
+                      P.X = (int)x;
+                      P.Y = (int)y;
+                      return P;
+                  }
+
+              }
+
+              //kiri bawah sampe kiri atas
+              A2 = this.Height;
+              B2 = 0;
+              C1 = A1 * p1.X + B1 * p1.Y;
+              C2 = A2 * this.X + B2 * (this.Y + this.Height);
+              det = A1 * B2 - A2 * B1;
+              if (det != 0)
+              {
+                  double x = (B2 * C1 - B1 * C2) / det;
+                  double y = (A1 * C2 - A2 * C1) / det;
+                  if (Math.Min(p1.X, p2.X) <= x && x <= Math.Max(p1.X, p2.X))
+                  {
+                      P.X = (int)x;
+                      P.Y = (int)y;
+                      return P;
+                  }
+
+              }
+              return P; 
+            throw new NotImplementedException();
+        }
     }
 }

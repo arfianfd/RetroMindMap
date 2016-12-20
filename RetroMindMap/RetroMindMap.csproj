@@ -83,6 +83,7 @@
     <Compile Include="DefaultToolbox.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Edge.cs" />
     <Compile Include="ICanvas.cs" />
     <Compile Include="ICommand.cs" />
     <Compile Include="IconSet.Designer.cs">
@@ -93,6 +94,7 @@
     <Compile Include="IEditor.cs" />
     <Compile Include="IMenuBar.cs" />
     <Compile Include="IMenuItem.cs" />
+    <Compile Include="IObservable.cs" />
     <Compile Include="IObserver.cs" />
     <Compile Include="IToolbar.cs" />
     <Compile Include="ITool.cs" />
@@ -127,6 +129,7 @@
     <Compile Include="Tools\TextTools.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Vertex.cs" />
     <EmbeddedResource Include="IconSet.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>IconSet.Designer.cs</LastGenOutput>
