@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RetroMindMap
 {
-    public abstract class Edge : DrawingObject
+    public abstract class Edge : DrawingObject, IObserver
     {
         private Vertex vertex1, vertex2;
 

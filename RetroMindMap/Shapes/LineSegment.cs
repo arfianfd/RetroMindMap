@@ -13,9 +13,10 @@ namespace RetroMindMap.Shapes
         public Point Startpoint { get; set; }
         public Point Endpoint { get; set; }
 
-        private Pen pen;
         private Vertex vertex1;
         private Vertex vertex2;
+
+        private Pen pen;
         public LineSegment()
         {
             this.pen = new Pen(Color.Black);
@@ -123,14 +124,14 @@ namespace RetroMindMap.Shapes
         }
         public override void Update(IObservable vertex, int deltaX, int deltaY)
         {
-        if (vertex == vertex1)
-        {
-        Startpoint = new Point(this.Startpoint.X + deltaX, this.Startpoint.Y + deltaY);
-        }
-        else
-        {
-        Endpoint = new Point(this.Endpoint.X + deltaX, this.Endpoint.Y + deltaY);
-        }
+            if (vertex == vertex1)
+            {
+                Startpoint = new Point(this.Startpoint.X + deltaX, this.Startpoint.Y + deltaY);
+            }
+            else
+            {
+                Endpoint = new Point(this.Endpoint.X + deltaX, this.Endpoint.Y + deltaY);
+            }
         }
         public override Point GetIntersectionPoint(Point p1, Point p2)
         {

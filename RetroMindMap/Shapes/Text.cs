@@ -1,6 +1,7 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.Drawing;
-
 namespace RetroMindMap.Shapes
 {
     public class Text : DrawingObject
@@ -44,7 +45,10 @@ namespace RetroMindMap.Shapes
             }
             return false;
         }
-
+        public override Point GetIntersectionPoint(Point p1, Point p2)
+        {
+            throw new NotImplementedException();
+        }
         public override void RenderOnEditingView()
         {
             GetGraphics().DrawString(Value, font, brush, new PointF(X, Y));
@@ -68,9 +72,6 @@ namespace RetroMindMap.Shapes
             X += xAmount;
             Y += yAmount;
         }
-        public override Point GetIntersectionPoint(Point p1, Point p2)
-        {
-            throw new NotImplementedException();
-        }
+      
     }
 }
