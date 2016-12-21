@@ -13,8 +13,8 @@ namespace RetroMindMap
     {
         public void Execute()
         {
-            SubEditor subeditor = MainWindow.getInstance().editor.GetSelectedCanvas();
-            if (subeditor == null)
+            
+            if (ICanvas. == null)
             {
                 MessageBox.Show("Tidak ada yang disave");
                 return;
