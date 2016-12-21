@@ -27,3 +27,13 @@ C:\Users\Arfian\Desktop\Kuliah\RetroMindMap-master\RetroMindMap-master\RetroMind
 C:\Users\Arfian\Desktop\Kuliah\RetroMindMap-master\RetroMindMap-master\RetroMindMap\obj\Debug\RetroMindMap.MainWindow.resources
 C:\Users\Arfian\Desktop\Kuliah\RetroMindMap-master\RetroMindMap-master\RetroMindMap\obj\Debug\RetroMindMap.Properties.Resources.resources
 C:\Users\Arfian\Desktop\Kuliah\RetroMindMap-master\RetroMindMap-master\RetroMindMap\obj\Debug\RetroMindMap.csproj.GenerateResource.Cache
+C:\Users\doelgoboz\Documents\GitHub\RetroMindMap\RetroMindMap\bin\Debug\RetroMindMap.exe.config
+C:\Users\doelgoboz\Documents\GitHub\RetroMindMap\RetroMindMap\bin\Debug\RetroMindMap.exe
+C:\Users\doelgoboz\Documents\GitHub\RetroMindMap\RetroMindMap\bin\Debug\RetroMindMap.pdb
+C:\Users\doelgoboz\Documents\GitHub\RetroMindMap\RetroMindMap\obj\Debug\RetroMindMap.csprojResolveAssemblyReference.cache
+C:\Users\doelgoboz\Documents\GitHub\RetroMindMap\RetroMindMap\obj\Debug\RetroMindMap.IconSet.resources
+C:\Users\doelgoboz\Documents\GitHub\RetroMindMap\RetroMindMap\obj\Debug\RetroMindMap.MainWindow.resources
+C:\Users\doelgoboz\Documents\GitHub\RetroMindMap\RetroMindMap\obj\Debug\RetroMindMap.Properties.Resources.resources
+C:\Users\doelgoboz\Documents\GitHub\RetroMindMap\RetroMindMap\obj\Debug\RetroMindMap.csproj.GenerateResource.Cache
+C:\Users\doelgoboz\Documents\GitHub\RetroMindMap\RetroMindMap\obj\Debug\RetroMindMap.exe
+C:\Users\doelgoboz\Documents\GitHub\RetroMindMap\RetroMindMap\obj\Debug\RetroMindMap.pdb

@@ -11,14 +11,26 @@ namespace RetroMindMap
     public partial class MainWindow : Form
     {
         private IToolbox toolbox;
-        private IEditor editor;
+        public IEditor editor;
         private IToolbar toolbar;
         private IMenubar menubar;
+
+        private static MainWindow instance;
+
+        public static MainWindow getInstance()
+        {
+            if (instance == null)
+            {
+                instance = new MainWindow();
+            }
+            return instance;
+        }
 
         public MainWindow()
         {
             InitializeComponent();
             InitUI();
+           
         }
 
 
