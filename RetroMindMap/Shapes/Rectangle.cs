@@ -10,8 +10,8 @@ namespace RetroMindMap.Shapes
     {
         public int X { get; set; }
         public int Y { get; set; }
-        public int Width { get; set; }
-        public int Height { get; set; }
+        public int Width = 100;
+        public int Height = 50;
 
         private Pen pen;
         private List<DrawingObject> drawingObjects;
@@ -31,8 +31,8 @@ namespace RetroMindMap.Shapes
 
         public Rectangle(int x, int y, int width, int height) : this(x, y)
         {
-            this.Width = width;
-            this.Height = height;
+            this.Width = 50;
+            this.Height = 50;
         }
 
         public override bool Intersect(int xTest, int yTest)
